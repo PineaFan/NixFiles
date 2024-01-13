@@ -1,0 +1,5 @@
+[gerrit]
+host=ssh.clicks.codes
+port=29418
+defaultbranch=main
+project=Clicks/NixHelpers.git

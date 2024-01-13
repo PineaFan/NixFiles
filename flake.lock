@@ -1,0 +1,58 @@
+{
+  "nodes": {
+    "helpers": {
+      "inputs": {
+        "nixpkgs": "nixpkgs"
+      },
+      "locked": {
+        "lastModified": 1700606678,
+        "narHash": "sha256-ZqkMRyAdrP7czMlOTqgZluaEvCRcwEGLRY9FZra/Yz8=",
+        "ref": "refs/heads/main",
+        "rev": "8b911b96cd322f9a3741d382cca30894617e4dad",
+        "revCount": 19,
+        "type": "git",
+        "url": "https://git.clicks.codes/Clicks/NixHelpers"
+      },
+      "original": {
+        "type": "git",
+        "url": "https://git.clicks.codes/Clicks/NixHelpers"
+      }
+    },
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1697688401,
+        "narHash": "sha256-61QlajY7R9PbK25uFl55zh968CVNspwXX1zzimic4Uo=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "458ef9126aa380996d77d44f53f886c2d8485f53",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "nixpkgs_2": {
+      "locked": {
+        "lastModified": 1700014976,
+        "narHash": "sha256-dSGpS2YeJrXW5aH9y7Abd235gGufY3RuZFth6vuyVtU=",
+        "owner": "NixOS",
+        "repo": "nixpkgs",
+        "rev": "592047fc9e4f7b74a4dc85d1b9f5243dfe4899e3",
+        "type": "github"
+      },
+      "original": {
+        "id": "nixpkgs",
+        "type": "indirect"
+      }
+    },
+    "root": {
+      "inputs": {
+        "helpers": "helpers",
+        "nixpkgs": "nixpkgs_2"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
